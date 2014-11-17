@@ -1,28 +1,16 @@
-#
-# Be sure to run `pod lib lint PushbotsLight.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "PushbotsLight"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PushbotsLight."
+  s.summary          = "Lightweight client for push notifications service Pushbots.com."
   s.description      = <<-DESC
-                       An optional longer description of PushbotsLight
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        Provides easy and transparent interface to communicate with server side.
+                        The purpose of this CocoaPod was to escape for official Pushbots SDK magic and wistles.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PushbotsLight"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/ikovalisko/PushbotsLight"
   s.license          = 'MIT'
   s.author           = { "Ivan Kovalisko" => "ikovalisko@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PushbotsLight.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/ikovalisko/PushbotsLight.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/ikovalisko'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
